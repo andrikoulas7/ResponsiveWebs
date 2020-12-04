@@ -240,7 +240,7 @@ code, pre {
     font-size: 17px;
     padding-bottom: 5px;
     margin-bottom: 5px;
-    border-bottom: 1px;
+    border-bottom: 1px #ccc solid;
 }
 
 .docs-main a:hover {
@@ -359,5 +359,9 @@ code, pre {
     .navbar ul{
         padding: 10px;
         background-color: rgba(0,0,0,0.1);
+    }
+
+    .showcase-form{
+        width: 300px;
     }
 }
